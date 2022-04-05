@@ -14,5 +14,4 @@ BotDForWilcox<-sapply(sapply(BotForWilcox[12], as.character), as.numeric)
 wilcox.test(BotEForWilcox, BotDForWilcox)
 median(BotForWilcox$E.Mean.pm6A)
 median(BotForWilcox$D.Mean.pm6A) 
-#TODO plot in ggplot, boxplot, violin plot
 
